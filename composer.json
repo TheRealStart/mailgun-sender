@@ -1,0 +1,16 @@
+{
+    "name": "TheRealStart/mailgun-sender",
+    "description": "The Mailgun sender for small landing pages",
+
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "mailgun/mailgun-php": "^2.8",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "MailgunSender": "src/"
+        }
+    }
+}
