@@ -9,8 +9,8 @@
         "php-http/message": "^1.7"
     },
     "autoload": {
-        "psr-0": {
-            "MailgunSender": "src/"
+        "psr-4": {
+            "MailgunSender\\": "src/"
         }
     }
 }
