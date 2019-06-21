@@ -1,12 +1,12 @@
 <?php
 
-namespace MailgunSender;
+namespace MailgunSender\MailSender;
 
 
 use Exception;
 use Mailgun\Mailgun;
 
-class MailgunSender
+class MailSender
 {
     private $key;
     private $domain;
