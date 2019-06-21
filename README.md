@@ -20,7 +20,7 @@ called HTTPlug. This will give you the flexibilty to choose what PSR-7 implement
 If you just want to get started quickly you should run the following command: 
 
 ```bash
-php composer.phar require TheRealStart/mailgun-sender
+php composer.phar require therealstart/mailgun-sender:dev-master
 
 ```
 
