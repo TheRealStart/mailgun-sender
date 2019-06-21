@@ -1,6 +1,6 @@
 <?php
 
-namespace MailgunSender\MailSender;
+namespace MailSender;
 
 
 use Exception;
