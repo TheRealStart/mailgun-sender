@@ -1,7 +1,7 @@
 {
     "name": "TheRealStart/mailgun-sender",
     "description": "The Mailgun sender for small landing pages",
-
+    "minimum-stability": "dev",
     "require": {
         "php": "^5.5 || ^7.0",
         "mailgun/mailgun-php": "^2.8",
