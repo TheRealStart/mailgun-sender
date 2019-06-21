@@ -6,7 +6,7 @@ namespace MailgunSender;
 use Exception;
 use Mailgun\Mailgun;
 
-class MailSender
+class MailgunSender
 {
     private $key;
     private $domain;
