@@ -4,6 +4,7 @@ This is TheRealStart Mailgun Sender wrapper to use on landing pages
 
 ## Installation
 
+### Installing composer
 To install Mailgun Sender, you will need to be using [Composer](http://getcomposer.org/) 
 in your project. 
 
@@ -14,19 +15,20 @@ composer:
 curl -sS https://getcomposer.org/installer | php
 ```
 
-The TheRealStart Mailgun Sender is not hard coupled to Guzzle or any other library that sends HTTP messages. It uses an abstraction 
-called HTTPlug. This will give you the flexibilty to choose what PSR-7 implementation and HTTP client to use. 
+### Installing TheRealStart Mailgun Sender package
 
-If you just want to get started quickly you should run the following command: 
+Run the following command: 
 
 ```bash
 php composer.phar require therealstart/mailgun-sender:dev-master
 
 ```
 
-## Usage
+### Use TheRealStart Mailgun Sender in your code
 
 ```php
+require __DIR__ . '/vendor/autoload.php';
+
 use MailgunSender\MailgunSender;
 
 $sender = new MailgunSender("{mailgun-key}", "{mailgun-domain}");
