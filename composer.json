@@ -1,5 +1,5 @@
 {
-    "name": "TheRealStart/mailgun-sender",
+    "name": "therealstart/mailgun-sender",
     "description": "The Mailgun sender for small landing pages",
     "minimum-stability": "dev",
     "require": {
