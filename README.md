@@ -27,9 +27,9 @@ php composer.phar require therealstart/mailgun-sender:dev-master
 ## Usage
 
 ```php
-use MailgunSender\MailSender;
+use MailgunSender\MailgunSender;
 
-$sender = new MailSender("{mailgun-key}", "{mailgun-domain}");
+$sender = new MailgunSender("{mailgun-key}", "{mailgun-domain}");
 
 $sender->send(
     "from@email.com",
