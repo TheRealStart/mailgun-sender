@@ -33,10 +33,5 @@ use MailgunSender\MailgunSender;
 
 $sender = new MailgunSender("{mailgun-key}", "{mailgun-domain}");
 
-$sender->send(
-    "from@email.com",
-    "to@email.com",
-    "Subject",
-    "Message Body"
-);
+$sender->send("from@email.com", "to@email.com", "Subject", "Message Body");
 ```
