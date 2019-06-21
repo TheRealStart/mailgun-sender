@@ -29,9 +29,7 @@ php composer.phar require therealstart/mailgun-sender:dev-master
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use MailgunSender\MailgunSender;
-
-$sender = new MailgunSender("{mailgun-key}", "{mailgun-domain}");
+$sender = new MailSender\MailSender("{mailgun-key}", "{mailgun-domain}");
 
 $sender->send("from@email.com", "to@email.com", "Subject", "Message Body");
 ```
